@@ -74,9 +74,8 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      margin-bottom: 4rem; /* increased bottom margin to separate from following sections */
+      margin-bottom: 4rem;
     }
-    /* Container for hero text to ensure readability on dark backgrounds */
     .hero-text {
       background: rgba(0, 0, 0, 0.6);
       padding: 20px;
@@ -157,7 +156,6 @@
     
     /* Responsive adjustments */
     @media (max-width: 768px) {
-      /* Disable sticky header on mobile to avoid overlap */
       header {
         position: relative;
       }
@@ -207,39 +205,54 @@
     </div>
   </section>
   
-  <!-- Courses Section -->
+  <!-- Courses Section (8 Cards) -->
   <section id="courses" class="container">
     <h2 data-aos="fade-right">Online Courses</h2>
     <div class="cards">
       <div class="card" data-aos="zoom-in">
         <h3>Coursera</h3>
-        <p>Access a wide range of computer science courses from top universities worldwide, covering topics from algorithms to machine learning.</p>
+        <p>Access a wide range of CS courses from top universities, covering topics from algorithms to machine learning.</p>
         <a href="https://www.coursera.org" target="_blank" class="button">Visit Coursera</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="100">
         <h3>edX</h3>
-        <p>Learn from courses offered by institutions like MIT and Harvard, available free to audit and for a fee for certification.</p>
+        <p>Courses from institutions like MIT and Harvard, available free to audit and with paid certifications.</p>
         <a href="https://www.edx.org" target="_blank" class="button">Visit edX</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="200">
         <h3>Udacity</h3>
-        <p>Engage with nanodegree programs and specialized courses that focus on practical skills and industry-relevant projects.</p>
+        <p>Nanodegree programs and specialized courses focusing on practical, industry-relevant projects.</p>
         <a href="https://www.udacity.com" target="_blank" class="button">Visit Udacity</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="300">
         <h3>MIT OpenCourseWare</h3>
-        <p>Explore free course materials from MIT, including lecture notes, assignments, and exams from a variety of CS subjects.</p>
+        <p>Free course materials from MIT, including lecture notes, assignments, and exams across CS topics.</p>
         <a href="https://ocw.mit.edu" target="_blank" class="button">Visit MIT OCW</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="400">
         <h3>Khan Academy</h3>
-        <p>Utilize interactive lessons and practice exercises in computer science and programming, designed for learners at all levels.</p>
+        <p>Interactive lessons and exercises in CS and programming, designed for learners of all levels.</p>
         <a href="https://www.khanacademy.org" target="_blank" class="button">Visit Khan Academy</a>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="500">
+        <h3>Pluralsight</h3>
+        <p>Technology courses focusing on development, IT operations, and creative skills for professionals.</p>
+        <a href="https://www.pluralsight.com" target="_blank" class="button">Visit Pluralsight</a>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="600">
+        <h3>FutureLearn</h3>
+        <p>UK-based online courses covering a broad range of subjects, including computer science and data analysis.</p>
+        <a href="https://www.futurelearn.com" target="_blank" class="button">Visit FutureLearn</a>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="700">
+        <h3>Udemy</h3>
+        <p>A vast library of courses on programming, web development, data science, and more—often on sale.</p>
+        <a href="https://www.udemy.com" target="_blank" class="button">Visit Udemy</a>
       </div>
     </div>
   </section>
   
-  <!-- Tutorials Section -->
+  <!-- Tutorials Section (4 Cards) -->
   <section id="tutorials" class="container">
     <h2 data-aos="fade-left">Interactive Tutorials</h2>
     <div class="cards">
@@ -250,71 +263,76 @@
       </div>
       <div class="card" data-aos="flip-left" data-aos-delay="100">
         <h3>Codecademy</h3>
-        <p>Engage in interactive learning for multiple programming languages, with hands-on exercises and real-world projects.</p>
+        <p>Interactive exercises and real-world projects to master multiple programming languages.</p>
         <a href="https://www.codecademy.com" target="_blank" class="button">Visit Codecademy</a>
       </div>
       <div class="card" data-aos="flip-left" data-aos-delay="200">
         <h3>W3Schools</h3>
-        <p>A beginner-friendly resource offering tutorials and references on web development languages such as HTML, CSS, and JavaScript.</p>
+        <p>Beginner-friendly tutorials and references on web development languages like HTML, CSS, and JavaScript.</p>
         <a href="https://www.w3schools.com" target="_blank" class="button">Visit W3Schools</a>
       </div>
       <div class="card" data-aos="flip-left" data-aos-delay="300">
         <h3>GeeksforGeeks</h3>
-        <p>Dive into programming concepts, data structures, algorithms, and interview preparation with in-depth articles and examples.</p>
+        <p>In-depth articles on programming concepts, data structures, algorithms, and interview preparation.</p>
         <a href="https://www.geeksforgeeks.org" target="_blank" class="button">Visit GeeksforGeeks</a>
       </div>
     </div>
   </section>
   
-  <!-- Books & Documentation Section -->
+  <!-- Books & Documentation Section (4 Cards) -->
   <section id="books" class="container">
     <h2 data-aos="fade-right">Books &amp; Documentation</h2>
     <div class="cards">
       <div class="card" data-aos="fade-up">
         <h3>MDN Web Docs</h3>
-        <p>An authoritative resource for web technologies, featuring comprehensive documentation on HTML, CSS, JavaScript, and more.</p>
+        <p>Comprehensive documentation on HTML, CSS, JavaScript, and other web technologies.</p>
         <a href="https://developer.mozilla.org" target="_blank" class="button">Visit MDN</a>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="100">
         <h3>Stack Overflow</h3>
-        <p>A community-driven Q&amp;A website for programmers to ask questions, share knowledge, and solve coding problems.</p>
+        <p>Community-driven Q&amp;A site for programming questions and solutions.</p>
         <a href="https://stackoverflow.com" target="_blank" class="button">Visit Stack Overflow</a>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="200">
         <h3>Classic Textbooks</h3>
-        <p>Explore foundational texts such as "Introduction to Algorithms" (CLRS) and "Clean Code" to deepen your theoretical and practical knowledge.</p>
+        <p>Essential texts like "Introduction to Algorithms" (CLRS) and "Clean Code" for deep theoretical knowledge.</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="300">
+        <h3>Tutorialspoint</h3>
+        <p>A comprehensive resource offering tutorials and documentation on a wide range of topics.</p>
+        <a href="https://www.tutorialspoint.com" target="_blank" class="button">Visit Tutorialspoint</a>
       </div>
     </div>
   </section>
   
-  <!-- Practice Section -->
+  <!-- Practice Section (4 Cards) -->
   <section id="practice" class="container">
     <h2 data-aos="fade-left">Coding Practice</h2>
     <div class="cards">
       <div class="card" data-aos="zoom-out">
         <h3>LeetCode</h3>
-        <p>Enhance your coding skills by solving algorithm problems and preparing for technical interviews through a vast problem set.</p>
+        <p>Solve algorithm problems and prepare for technical interviews with a vast problem set.</p>
         <a href="https://leetcode.com" target="_blank" class="button">Visit LeetCode</a>
       </div>
       <div class="card" data-aos="zoom-out" data-aos-delay="100">
         <h3>HackerRank</h3>
-        <p>Practice coding challenges and compete in contests to improve your problem-solving and programming skills.</p>
+        <p>Practice coding challenges and contests to improve your problem-solving skills.</p>
         <a href="https://www.hackerrank.com" target="_blank" class="button">Visit HackerRank</a>
       </div>
       <div class="card" data-aos="zoom-out" data-aos-delay="200">
         <h3>Project Euler</h3>
-        <p>Solve mathematical and computational problems that require more than just coding skills, challenging your algorithmic thinking.</p>
+        <p>Solve mathematical and computational problems that challenge your algorithmic thinking.</p>
         <a href="https://projecteuler.net" target="_blank" class="button">Visit Project Euler</a>
       </div>
       <div class="card" data-aos="zoom-out" data-aos-delay="300">
         <h3>Codewars</h3>
-        <p>Test and improve your skills through fun, gamified coding challenges that range in difficulty from beginner to expert.</p>
+        <p>Fun, gamified coding challenges that range from beginner to expert levels.</p>
         <a href="https://www.codewars.com" target="_blank" class="button">Visit Codewars</a>
       </div>
     </div>
   </section>
   
-  <!-- Competitive Programming Section -->
+  <!-- Competitive Programming Section (12 Cards) -->
   <section id="competitive" class="container">
     <h2 data-aos="fade-right">Competitive Programming</h2>
     <div class="cards">
@@ -325,22 +343,22 @@
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="100">
         <h3>Codeforces</h3>
-        <p>A vibrant community platform offering regular contests, problem sets, and interactive discussions.</p>
+        <p>A vibrant community platform with regular contests, problem sets, and discussions.</p>
         <a href="https://codeforces.com" target="_blank" class="button">Visit Codeforces</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="200">
         <h3>TopCoder</h3>
-        <p>Competitive programming challenges and algorithm competitions with a global community of coders.</p>
+        <p>Competitive programming challenges and algorithm competitions with a global community.</p>
         <a href="https://www.topcoder.com" target="_blank" class="button">Visit TopCoder</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="300">
         <h3>AtCoder</h3>
-        <p>Regular contests and challenging problems on this Japanese platform, popular among competitive programmers.</p>
+        <p>Regular contests and challenging problems on a Japanese platform popular with competitive programmers.</p>
         <a href="https://atcoder.jp" target="_blank" class="button">Visit AtCoder</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="400">
         <h3>SPOJ</h3>
-        <p>A vast repository of algorithmic challenges and contests designed to test your coding skills.</p>
+        <p>A vast repository of algorithmic challenges and contests to test your coding skills.</p>
         <a href="https://www.spoj.com" target="_blank" class="button">Visit SPOJ</a>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="500">
@@ -368,54 +386,69 @@
         <p>Join fast-paced coding battles on CodeChef's Clash of Code platform to test your speed and problem-solving prowess.</p>
         <a href="https://www.codechef.com/clash" target="_blank" class="button">Visit Clash of Code</a>
       </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="1000">
+        <h3>Timus Online Judge</h3>
+        <p>Solve a wide variety of algorithmic problems on this popular online judge platform.</p>
+        <a href="https://acm.timus.ru" target="_blank" class="button">Visit Timus</a>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="1100">
+        <h3>CodeAbbey</h3>
+        <p>Improve your programming skills by solving a large collection of algorithmic problems.</p>
+        <a href="https://www.codeabbey.com" target="_blank" class="button">Visit CodeAbbey</a>
+      </div>
     </div>
   </section>
   
-  <!-- Tools & Communities Section -->
+  <!-- Tools & Communities Section (4 Cards) -->
   <section id="tools" class="container">
     <h2 data-aos="fade-right">Tools &amp; Communities</h2>
     <div class="cards">
       <div class="card" data-aos="flip-up">
         <h3>GitHub</h3>
-        <p>Collaborate on projects, explore open source code, and manage your repositories with the world’s leading version control platform.</p>
+        <p>Collaborate on projects, explore open source code, and manage your repositories on the leading version control platform.</p>
         <a href="https://github.com" target="_blank" class="button">Visit GitHub</a>
       </div>
       <div class="card" data-aos="flip-up" data-aos-delay="100">
         <h3>Stack Exchange</h3>
-        <p>A network of Q&amp;A communities covering various topics in technology and programming, fostering collaborative learning.</p>
+        <p>A network of Q&amp;A communities covering various tech topics and fostering collaborative learning.</p>
         <a href="https://stackexchange.com" target="_blank" class="button">Visit Stack Exchange</a>
       </div>
       <div class="card" data-aos="flip-up" data-aos-delay="200">
         <h3>Reddit</h3>
-        <p>Join communities such as <em>r/learnprogramming</em> to discuss, share, and learn about coding and computer science topics.</p>
+        <p>Join communities like <em>r/learnprogramming</em> to discuss and share coding and CS topics.</p>
         <a href="https://www.reddit.com/r/learnprogramming" target="_blank" class="button">Visit Reddit</a>
       </div>
       <div class="card" data-aos="flip-up" data-aos-delay="300">
         <h3>Dev.to</h3>
-        <p>Read articles, tutorials, and experiences shared by developers around the world in a friendly, community-driven platform.</p>
+        <p>Read articles, tutorials, and experiences shared by developers in a friendly, community-driven platform.</p>
         <a href="https://dev.to" target="_blank" class="button">Visit Dev.to</a>
       </div>
     </div>
   </section>
   
-  <!-- Others / Specialized Section -->
+  <!-- Others / Specialized Section (4 Cards) -->
   <section id="others" class="container">
     <h2 data-aos="fade-left">Specialized &amp; Research</h2>
     <div class="cards">
       <div class="card" data-aos="fade-up">
         <h3>Kaggle</h3>
-        <p>Engage in data science competitions, work with diverse datasets, and learn from community notebooks and discussions.</p>
+        <p>Engage in data science competitions, work with diverse datasets, and learn from community notebooks.</p>
         <a href="https://www.kaggle.com" target="_blank" class="button">Visit Kaggle</a>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="100">
         <h3>Papers with Code</h3>
-        <p>Explore research papers alongside code implementations, bridging the gap between theoretical research and practical applications.</p>
+        <p>Explore research papers alongside code implementations to bridge theory and practice.</p>
         <a href="https://paperswithcode.com" target="_blank" class="button">Visit Papers with Code</a>
       </div>
       <div class="card" data-aos="fade-up" data-aos-delay="200">
         <h3>arXiv</h3>
-        <p>Access a vast archive of research papers in computer science, mathematics, and related fields to stay updated with the latest studies.</p>
+        <p>Access a vast archive of research papers in CS, mathematics, and related fields.</p>
         <a href="https://arxiv.org" target="_blank" class="button">Visit arXiv</a>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="300">
+        <h3>ResearchGate</h3>
+        <p>Connect with researchers, share publications, and discover the latest academic insights.</p>
+        <a href="https://www.researchgate.net" target="_blank" class="button">Visit ResearchGate</a>
       </div>
     </div>
   </section>
