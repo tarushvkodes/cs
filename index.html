@@ -4,8 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Comprehensive CS Resources</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
   <!-- AOS CSS for animations -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
   <style>
@@ -16,7 +14,7 @@
       box-sizing: border-box;
     }
     body {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       line-height: 1.6;
       background: #f4f4f4;
       color: #333;
@@ -61,30 +59,32 @@
     
     /* Hero Section */
     .hero {
-      background: url('https://source.unsplash.com/1600x900/?coding,computer') no-repeat center center/cover;
+      background: url('banner.png') no-repeat center center/cover;
       height: 60vh;
       position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
-      color: #fff;
     }
-    .hero::after {
-      content: "";
-      position: absolute;
-      top:0; left:0;
-      right:0; bottom:0;
-      background: rgba(0,0,0,0.5);
+    /* Container for hero text to ensure readability on dark backgrounds */
+    .hero-text {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+    .hero-text h1,
+    .hero-text p {
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     }
     .hero h1 {
       font-size: 3rem;
-      z-index: 1;
+      margin-bottom: 0.5rem;
     }
     .hero p {
       font-size: 1.2rem;
-      margin-top: 1rem;
-      z-index: 1;
     }
     
     /* Section Titles */
@@ -181,8 +181,10 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h1 data-aos="fade-up">Discover the Best CS Resources</h1>
-      <p data-aos="fade-up" data-aos-delay="200">A curated collection of courses, tutorials, books, and tools to master Computer Science.</p>
+      <div class="hero-text" data-aos="fade-up">
+        <h1>Discover the Best CS Resources</h1>
+        <p data-aos="fade-up" data-aos-delay="200">A curated collection of courses, tutorials, books, and tools to master Computer Science.</p>
+      </div>
     </div>
   </section>
   
@@ -345,7 +347,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 Comprehensive CS Resources. All rights reserved.</p>
+      <p>&copy; 2025 Tarushv Kosgi. All rights reserved.</p>
     </div>
   </footer>
   
