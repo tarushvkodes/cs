@@ -40,8 +40,7 @@
     header {
       background: #0077cc;
       color: #fff;
-      /* Remove extra padding so that the header is only as high as the text */
-      padding: 0;
+      padding: 0;  /* header height is determined solely by its content */
       position: sticky;
       top: 0;
       z-index: 1000;
@@ -75,8 +74,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      /* Added bottom margin to separate from following sections */
-      margin-bottom: 2rem;
+      margin-bottom: 4rem; /* increased bottom margin to separate from following sections */
     }
     /* Container for hero text to ensure readability on dark backgrounds */
     .hero-text {
@@ -159,9 +157,9 @@
     
     /* Responsive adjustments */
     @media (max-width: 768px) {
-      /* Keep header padding at 0 on mobile */
+      /* Disable sticky header on mobile to avoid overlap */
       header {
-        padding: 0;
+        position: relative;
       }
       .hero {
         height: 40vh;
