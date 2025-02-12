@@ -40,7 +40,8 @@
     header {
       background: #0077cc;
       color: #fff;
-      padding: 1rem 0;
+      /* Remove extra padding so that the header is only as high as the text */
+      padding: 0;
       position: sticky;
       top: 0;
       z-index: 1000;
@@ -156,8 +157,9 @@
     
     /* Responsive adjustments */
     @media (max-width: 768px) {
+      /* Keep header padding at 0 on mobile */
       header {
-        padding: 0.5rem 0;
+        padding: 0;
       }
       .hero {
         height: 40vh;
@@ -197,7 +199,9 @@
     <div class="container">
       <div class="hero-text" data-aos="fade-up">
         <h1>Discover the Best CS Resources</h1>
-        <p data-aos="fade-up" data-aos-delay="200">A curated collection of courses, tutorials, books, and tools to master Computer Science.</p>
+        <p data-aos="fade-up" data-aos-delay="200">
+          A curated collection of courses, tutorials, books, and tools to master Computer Science.
+        </p>
       </div>
     </div>
   </section>
