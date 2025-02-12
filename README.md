@@ -1,4 +1,4 @@
-# CS Resources Website
+# Tarushv's CS Resources
 
 A comprehensive collection of Computer Science learning resources, featuring a modern, responsive design with animated cards and sections.
 
